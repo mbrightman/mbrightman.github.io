@@ -1,2 +1,5 @@
-# my-website
-A website that I plan to use to learn HTML and JS. Eventually I plan on this being a pseudo-resume.
+# Matthew Brightman's Resume
+
+Hi! My name is Matthew Brightman and I am a graduate from the University of North Carolina at Chapel Hill, 
+with degrees in Computer Science (B.S.) and Mathematics (B.A.) and a minor in Statistics. I currently work at Accenture 
+as an Advanced Application Engineering Analyst.
