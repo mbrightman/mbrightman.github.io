@@ -21,3 +21,4 @@ function MainSection() {
 
 export default MainSection
 // if wanted a BACKGROUND VID: HTML code <video src='src of video' autoPlay loop muted /> 
+// under 1st div
