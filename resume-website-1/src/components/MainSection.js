@@ -9,11 +9,11 @@ function MainSection() {
       <h1>MATTHEW BRIGHTMAN</h1>
       <p>Welcome to my Website Resume!</p>
       <div className='main-btns'>
-        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Education</Button>
+        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' link='/education'>Education</Button>
 
-        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Work Experience</Button>
+        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' link='/work'>Work Experience</Button>
 
-        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Skills & Projects</Button>
+        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' link='/skills'>Skills & Projects</Button>
       </div>
     </div>
   )
