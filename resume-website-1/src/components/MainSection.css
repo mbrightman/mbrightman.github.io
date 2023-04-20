@@ -1,3 +1,4 @@
+/*
 video {
     object-fit: cover;
     width: 100%;
@@ -5,6 +6,9 @@ video {
     position: fixed;
     z-index: -1;
 }
+
+if want to have video in background of Home page
+*/
 
 .main-container {
     background: url('../images/matt_brightman_badge_photo.jpg') center center/cover no-repeat;

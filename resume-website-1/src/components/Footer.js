@@ -40,7 +40,7 @@ function Footer() {
             </div>
             <small className='website-rights'>MB 2023</small>
             <div className='social-icons'>
-                <Link className='social-icon-link linkedin' to='/' target='_blank' aria-label='LinkedIn'>
+                <Link className='social-icon-link linkedin' to='https://www.linkedin.com/in/matthew-brightman/' target='_blank' aria-label='LinkedIn'>
                     <i className='fab fa-linkedin'></i>
                 </Link>
                 <Link className='social-icon-link github' to='/' target='_blank' aria-label='GitHub'>
@@ -60,3 +60,5 @@ function Footer() {
 }
 
 export default Footer
+
+// for groups of links... to create a separate COLUMN, create a new WRAPPER
