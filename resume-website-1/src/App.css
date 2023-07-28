@@ -17,7 +17,7 @@
   }
   
   .education {
-    background-image: url('/src/images/unc-pic.jpg');
+    background-image: url('/src/components/images/unc-pic.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@
   }
   
   .work {
-    background-image: url('/src/images/work-placeholder.png');
+    background-image: url('/src/components/images/work-placeholder.png');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@
   }
   
   .skills {
-    background-image: url('/src/images/skills-placeholder.jpg');
+    background-image: url('/src/components/images/skills-placeholder.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
