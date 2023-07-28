@@ -45,8 +45,8 @@
   }
   
   .cards-item-pic-wrap {
-    position: relative;
     width: 100%;
+    position: relative;
     padding-top: 67%;
     overflow: hidden;
   }
