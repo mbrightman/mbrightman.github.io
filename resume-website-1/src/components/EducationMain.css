@@ -7,10 +7,26 @@ h2 {
 
 h3 {
     font-size: 30px;
+    margin: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+h5 {
+    margin: 10px;
 }
 
 p {
     margin: 10px;
+}
+
+.education-tagline {
+    font-size: 60px;
+    color: #4B9CD3;
+    font-style: italic;
 }
 
 .education-degrees {
@@ -20,6 +36,18 @@ p {
 .coursework-container {
     display: flex;
 }
+
+.internship-table {
+    min-width: 650;
+    border-collapse: separate;
+    border-spacing: 50px 4px;
+    table-layout: auto;
+}
+
+.internship-table p {
+    font-weight: 100;
+}
+
 
 .column {
     flex: 1;
