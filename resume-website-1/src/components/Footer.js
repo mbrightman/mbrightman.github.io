@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-            [Placeholder Text]
+            Thank you for visiting!
         </p>
         <p className='footer-subscription-text'>
             [Second Placeholder Text]
@@ -43,7 +43,7 @@ function Footer() {
                 <Link className='social-icon-link linkedin' to='https://www.linkedin.com/in/matthew-brightman/' target='_blank' aria-label='LinkedIn'>
                     <i className='fab fa-linkedin'></i>
                 </Link>
-                <Link className='social-icon-link github' to='/' target='_blank' aria-label='GitHub'>
+                <Link className='social-icon-link github' to='https://github.com/mbrightman' target='_blank' aria-label='GitHub'>
                     <i className='fab fa-github'></i>
                 </Link>
                 <Link className='social-icon-link instagram' to='/' target='_blank' aria-label='Instagram'>

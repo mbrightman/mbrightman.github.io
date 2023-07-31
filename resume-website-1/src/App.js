@@ -6,6 +6,8 @@ import Home from './components/pages/Home'
 import Education from './components/pages/Education'
 import Work from './components/pages/Work'
 import Skills from './components/pages/Skills'
+import Footer from './components/Footer'
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route exact path='/work' element={<Work />} />
           <Route exact path='/skills' element={<Skills />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
