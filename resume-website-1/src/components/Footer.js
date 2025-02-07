@@ -11,12 +11,12 @@ function Footer() {
             Thank you for visiting!
         </p>
         <p className='footer-subscription-text'>
-            [Second Placeholder Text]
+            Feel free to sign up for my website here.
         </p>
         <div className='input-areas'>
             <form>
                 <input className='footer-input' type='email' name='email' placeholder='Your Email' />
-                <Button buttonStyle='btn--outline'>Subscribe</Button>
+                <Button buttonStyle='btn--outline'>Sign Up</Button>
             </form>
         </div>
       </section>
@@ -38,7 +38,7 @@ function Footer() {
                     MB
                 </Link>
             </div>
-            <small className='website-rights'>MB 2023</small>
+            <small className='website-rights'>MB 2025</small>
             <div className='social-icons'>
                 <Link className='social-icon-link linkedin' to='https://www.linkedin.com/in/matthew-brightman/' target='_blank' aria-label='LinkedIn'>
                     <i className='fab fa-linkedin'></i>

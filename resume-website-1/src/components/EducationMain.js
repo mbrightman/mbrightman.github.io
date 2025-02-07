@@ -53,10 +53,12 @@ function EducationMain() {
                         <tr>
                             <td>
                                 <h4>Web Development Intern, TIAA</h4>
-                                <p style={{marginLeft: 30}}>Assisted with features and integration of a web application using Angular and 
+                                <p style={{marginLeft: 30}}>
+                                    Assisted with features and integration of a web application using Angular and 
                                     Java, including developing features, improving UI, and demoing the application 
                                     for associates. Also responsible for developing a quantitative method for tracking 
-                                    associate training for gamification purposes.</p>
+                                    associate training for gamification purposes.
+                                </p>
                             </td>
                             <td><h4>June 2020 - August 2020</h4></td>
                         </tr>
