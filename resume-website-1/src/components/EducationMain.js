@@ -20,7 +20,12 @@ function EducationMain() {
                     <p>GPA: 3.4</p>
                 </div>
 
-                <p>This is a quick paragraph summarizing my time at UNC. See more about my time at UNC!</p>
+                <p>I graduated from the University of North Carolina at Chapel Hill in 2022 with a Bachelor of Science in Computer 
+                    Science, a Bachelor of Arts in Mathematics, and a Minor in Statistics. During my time at UNC, I enjoyed exploring 
+                    my passions for cybersecurity, software development, cryptography, and sports analytics. I engaged in projects 
+                    that deepened my understanding of these fields and participated in organizations that aligned with my interests, 
+                    including Cru, Intramural Sports, and COMP110 Hackathons.
+                </p>
                 <br/>
                 <h3>Relevant Coursework</h3>
                 <div className='coursework-container'>
@@ -106,7 +111,7 @@ function EducationMain() {
                 <br/>
                 <h3>Extracurriculars</h3>
                 <div className='extracurriculars-container'>
-                    <h4>COMP 110 Hackathon</h4>
+                    <h4>COMP110 Hackathon</h4>
                     <h4>Intramural Sports</h4>
                     <h4>Cru</h4>
                 </div>
