@@ -1,1 +1,0 @@
-// runs  things from inside index.html
