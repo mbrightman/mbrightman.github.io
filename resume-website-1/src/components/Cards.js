@@ -9,9 +9,9 @@ function Cards() {
       <div className='cards-container'>
         <div className='cards-wrapper'>
             <ul className='cards-items'>
-                <CardItem src={require('./images/unc-pic.jpg')} text='Explore my educational experience!' label='Education' path='/education' />
-                <CardItem src={require('./images/work-placeholder.png')} text='Get a glimpse into the professional experience I have had so far.' label='Work' path='/work' />
-                <CardItem src={require('./images/skills-placeholder.jpg')} text='Check out my skills, certifications, and projects!' label='Skills & Projects' path='/skills' />
+                <CardItem src={require('./images/unc-pic.jpg')} text='Check out my experience at UNC! (Go Heels)' label='Education' path='/education' />
+                <CardItem src={require('./images/work-placeholder.png')} text='Get a glimpse into the professional experience I&#8217;ve had so far.' label='Work' path='/work' />
+                <CardItem src={require('./images/skills-placeholder.jpg')} text='Skills, certifications, and projects that I&#8217;m proud of!' label='Skills & Projects' path='/skills' />
             </ul>
         </div>
       </div>

@@ -11,8 +11,8 @@ if want to have video in background of Home page
 */
 
 .main-container {
-    background: url('images/matt_head.jpg') center center/cover no-repeat;
-    height: 155vh;
+    background: url('images/matt_head.jpg') center -120px / cover no-repeat;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ if want to have video in background of Home page
 .main-container > h1 {
     color: #fff;
     font-size: 100px;
-    margin-top: -100px;
+    margin-top: 120px;
 }
 
 .main-container > p {

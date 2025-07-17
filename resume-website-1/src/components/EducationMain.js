@@ -94,19 +94,32 @@ function EducationMain() {
                 </div>
                 <br/>
                 <h3>Projects</h3>
-                <div className='projects-container'>
-                    <p>UNC Baseball Analytics</p>
-                    <p>Web Development: COVID Dashboard</p>
-                    <p>MATLAB Math Projects</p>
-                    <p>Python Password Cracking - Dictionary Attacks</p>
+                <div className='projects-links'>
+                    <div className='project'>
+                        <a href='/'>
+                            <img src='./images/unc-pic.jpg' alt='UNC_Baseball_Analytics'></img>
+                            <div className='project-title'>UNC Baseball Analytics</div>
+                        </a>
+                    </div>
+                    <div className='project'>
+                        <a href='/'>
+                            <img src='C:\Users\mattb523\Documents\resume-master\my-website\resume-website-1\src\components\images\matt_head.jpg' alt='Project2'></img>
+                            <div className='project-title'>Project 2</div>
+                        </a>
+                    </div>
+                    <div className='project'>
+                        <a href='/'>
+                            <img src='images/matt_head.jpg' alt='Project3'></img>
+                            <div className='project-title'>Project 3</div>
+                        </a>
+                    </div>
                 </div>
-                <br/>
-                <h3>Online Courses</h3>
-                <div className='online-courses-container'>
-                    <h4>AWS Cloud Practitioner</h4>
-                    <h4>Hack The Box</h4>
-                    <h4>CompTIA Security+</h4>
-                    <h4>AWS Certifed Solutions Architect</h4>
+
+                <div className='projects-container'>
+                    <h4>UNC Baseball Analytics</h4>
+                    <h4>Web Development: COVID Dashboard</h4>
+                    <h4>MATLAB Math Projects</h4>
+                    <h4>Python Password Cracking - Dictionary Attacks</h4>
                 </div>
                 <br/>
                 <h3>Extracurriculars</h3>

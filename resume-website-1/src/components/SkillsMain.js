@@ -1,10 +1,19 @@
 import React from 'react'
 import '../App.css'
 import './SkillsMain.css'
+import mlbLogo from 'C:/Users/mattb523/Documents/my-website/my-website/resume-website-1/src/components/images/matt_head.jpg'
+
+
 
 function SkillsMain() {
     return(
         <>
+            <div className='certs-container'>
+                <h4>Certifications</h4>
+                <p>AWS Cloud Practitioner (Complete)</p>
+                <p>CompTIA Security+ (In Progress)</p>
+            </div>
+
             <div className='skills-details'>
                 <div className='skills-container'>
                     <div className='column'>
@@ -34,31 +43,32 @@ function SkillsMain() {
                         <p>Anaconda</p>
                         <p>Debian</p>
                     </div>
-                    <div className='column'>
-                        <h4>Certifications</h4>
-                        <p>AWS Cloud Practitioner (Complete)</p>
-                        <p>CompTIA Security+ (In Progress)</p>
-                    </div>
                 </div>
             </div>
 
             <div className='projects-links'>
                 <div className='project'>
-                    <a href='/'>
-                        <img src='C:\Users\mattb523\Documents\resume-master\my-website\resume-website-1\src\components\images\matt_head.jpg' alt='Project1'></img>
-                        <div className='project-title'>Project 1</div>
+                    <a href='/skills'>
+                        <div className='project-image-wrapper'>
+                            <img src={mlbLogo} alt='baseball_project'/>
+                            <div className='project-title'>Baseball Live Leaderboards</div>
+                        </div>
                     </a>
                 </div>
                 <div className='project'>
-                    <a href='/'>
-                        <img src='C:\Users\mattb523\Documents\resume-master\my-website\resume-website-1\src\components\images\matt_head.jpg' alt='Project2'></img>
-                        <div className='project-title'>Project 2</div>
+                    <a href='/skills'>
+                        <div className='project-image-wrapper'>
+                            <img src={mlbLogo} alt='baseball_project'/>
+                            <div className='project-title'>Baseball Live Leaderboards</div>
+                        </div>
                     </a>
                 </div>
                 <div className='project'>
-                    <a href='/'>
-                        <img src='images/matt_head.jpg' alt='Project3'></img>
-                        <div className='project-title'>Project 3</div>
+                    <a href='/skills'>
+                        <div className='project-image-wrapper'>
+                            <img src={mlbLogo} alt='baseball_project'/>
+                            <div className='project-title'>Baseball Live Leaderboards</div>
+                        </div>
                     </a>
                 </div>
             </div>
