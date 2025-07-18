@@ -1,0 +1,14 @@
+.carousel-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+}

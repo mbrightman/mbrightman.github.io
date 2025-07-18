@@ -1,18 +1,18 @@
 import React from 'react'
 import '../App.css'
 import './SkillsMain.css'
-import mlbLogo from 'C:/Users/mattb523/Documents/my-website/my-website/resume-website-1/src/components/images/matt_head.jpg'
+import { CertsCarousel } from './CertsCarousel'
+
+import mlbLogo from 'C:/Users/mattb523/Documents/my-website/my-website/resume-website-1/src/components/images/mlb-logo.png'
+import weatherLogo from 'C:/Users/mattb523/Documents/my-website/my-website/resume-website-1/src/components/images/mlb-logo.png'
 
 
 
 function SkillsMain() {
     return(
         <>
-            <div className='certs-container'>
-                <h4>Certifications</h4>
-                <p>AWS Cloud Practitioner (Complete)</p>
-                <p>CompTIA Security+ (In Progress)</p>
-            </div>
+            <h4>Certifications</h4>
+            <CertsCarousel />
 
             <div className='skills-details'>
                 <div className='skills-container'>
@@ -58,8 +58,8 @@ function SkillsMain() {
                 <div className='project'>
                     <a href='/skills'>
                         <div className='project-image-wrapper'>
-                            <img src={mlbLogo} alt='baseball_project'/>
-                            <div className='project-title'>Baseball Live Leaderboards</div>
+                            <img src={weatherLogo} alt='weather_app'/>
+                            <div className='project-title'>Weather App</div>
                         </div>
                     </a>
                 </div>
