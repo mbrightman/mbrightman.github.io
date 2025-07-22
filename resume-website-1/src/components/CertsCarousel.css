@@ -1,14 +1,32 @@
 .carousel-container {
     width: 80%;
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 40px 0;
     text-align: center;
+    position: relative;
 }
 
-.carousel .legend {
-  background: rgba(0, 0, 0, 0.6);
+.carousel .slide .legend {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background: rgba(0, 0, 0, 0.7);
   font-size: 16px;
   padding: 10px;
   border-radius: 5px;
+  pointer-events: none;
+}
+
+.carousel .slide:hover .legend {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.carousel .legend a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.carousel .legend a:hover {
+  text-decoration: underline;
 }
