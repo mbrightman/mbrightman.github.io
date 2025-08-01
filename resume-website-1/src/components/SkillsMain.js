@@ -29,7 +29,6 @@ function SkillsMain() {
                                     <p>Splunk</p>
                                     <p>HTML/CSS</p>
                                     <p>R</p>
-                                    <p>C</p>
                                 </div>
                                 <div className='column'>
                                     <h4>Frameworks</h4>
@@ -37,7 +36,8 @@ function SkillsMain() {
                                     <p>React</p>
                                     <p>Node.js</p>
                                     <p>Angular</p>
-                                    <p>Google Cloud Platform</p>
+                                    <p>GCP</p>
+                                    <p>Mainframe</p>
                                 </div>
                                 <div className='column'>
                                     <h4>Developer Tools</h4>
@@ -52,41 +52,10 @@ function SkillsMain() {
                     </div>
                 </div>
             </div>    
-                
 
 
-
-            <div className='skills-details'>
-                <div className='skills-container'>
-                    <div className='column'>
-                        <h4>Languages</h4>
-                        <p>Python</p>
-                        <p>JavaScript</p>
-                        <p>SQL</p>
-                        <p>Java</p>
-                        <p>Splunk</p>
-                        <p>HTML/CSS</p>
-                        <p>R</p>
-                        <p>C</p>
-                    </div>
-                    <div className='column'>
-                        <h4>Frameworks</h4>
-                        <p>AWS</p>
-                        <p>React</p>
-                        <p>Node.js</p>
-                        <p>Angular</p>
-                        <p>Google Cloud Platform</p>
-                    </div>
-                    <div className='column'>
-                        <h4>Developer Tools</h4>
-                        <p>Git</p>
-                        <p>Visual Studio</p>
-                        <p>Eclipse</p>
-                        <p>Anaconda</p>
-                        <p>Debian</p>
-                    </div>
-                </div>
-            </div>
+        <div className='projects-box'>
+            <h2>Projects</h2>
 
             <div className='projects-links'>
                 <div className='project'>
@@ -106,14 +75,17 @@ function SkillsMain() {
                     </a>
                 </div>
                 <div className='project'>
-                    <a href='/skills'>
+                    <a href='/'>
                         <div className='project-image-wrapper'>
-                            <img src={mlbLogo} alt='baseball_project'/>
-                            <div className='project-title'>Baseball Live Leaderboards</div>
+                            <img src={mlbLogo} alt='website_project'/>
+                            <div className='project-title'>This Website!</div>
                         </div>
                     </a>
                 </div>
             </div>
+        </div>
+
+            
         </>
     )
 }
