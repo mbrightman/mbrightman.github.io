@@ -3,8 +3,8 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Required carousel CSS
 
 import './CertsCarousel.css'
-import awsLogo from 'C:/Users/mattb523/Documents/my-website/my-website/resume-website-1/src/components/images/awscloudpraccert.png'
-import comptiaLogo from 'C:/Users/mattb523/Documents/my-website/my-website/resume-website-1/src/components/images/secpluscert.png'
+import awsLogo from './images/awscloudpraccert.png'
+import comptiaLogo from './images/secpluscert.png'
 
 
 export const CertsCarousel = () => {
