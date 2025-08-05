@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a84d6aa.css",
+    "main.js": "/static/js/main.e66c36b5.js",
+    "static/media/work-placeholder.png": "/static/media/work-placeholder.50ace0ed43aabcadc113.png",
+    "static/media/matt_head.jpg": "/static/media/matt_head.48bfd402a91b876e32e3.jpg",
+    "static/media/skills-placeholder.jpg": "/static/media/skills-placeholder.80682f5c64be60bb77e0.jpg",
+    "static/media/unc-pic.jpg": "/static/media/unc-pic.5a7b122b4008a62f6456.jpg",
+    "static/media/secpluscert.png": "/static/media/secpluscert.b01d5ea1880676e5fec5.png",
+    "static/media/awscloudpraccert.png": "/static/media/awscloudpraccert.cb6599bd6729f2fbcbec.png",
+    "index.html": "/index.html",
+    "main.0a84d6aa.css.map": "/static/css/main.0a84d6aa.css.map",
+    "main.e66c36b5.js.map": "/static/js/main.e66c36b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a84d6aa.css",
+    "static/js/main.e66c36b5.js"
+  ]
+}
