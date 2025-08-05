@@ -103,13 +103,13 @@ function EducationMain() {
                     </div>
                     <div className='project'>
                         <a href='/'>
-                            <img src='C:\Users\mattb523\Documents\resume-master\my-website\resume-website-1\src\components\images\matt_head.jpg' alt='Project2'></img>
+                            <img src='./images/matt_head.jpg' alt='Project2'></img>
                             <div className='project-title'>Project 2</div>
                         </a>
                     </div>
                     <div className='project'>
                         <a href='/'>
-                            <img src='images/matt_head.jpg' alt='Project3'></img>
+                            <img src='./images/matt_head.jpg' alt='Project3'></img>
                             <div className='project-title'>Project 3</div>
                         </a>
                     </div>

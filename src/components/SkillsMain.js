@@ -3,8 +3,8 @@ import '../App.css'
 import './SkillsMain.css'
 import { CertsCarousel } from './CertsCarousel'
 
-import mlbLogo from 'C:/Users/mattb523/Documents/my-website/my-website/resume-website-1/src/components/images/mlb-logo.png'
-import weatherLogo from 'C:/Users/mattb523/Documents/my-website/my-website/resume-website-1/src/components/images/mlb-logo.png'
+import mlbLogo from './images/mlb-logo.png'
+import weatherLogo from './images/mlb-logo.png'
 
 
 
