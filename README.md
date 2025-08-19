@@ -6,6 +6,8 @@ as an Advanced Application Engineering Analyst.
 
 I will be using this website as a place to display my talent and skills, as well as a place to display my resume.
 
+Access [mbrightman.github.io](mbrightman.github.io) to view my website resume!
+
 Please contact brightman.matthew@gmail.com with any questions!
 
 # Getting Started with Create React App
